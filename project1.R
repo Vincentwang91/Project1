@@ -16,7 +16,10 @@ setwd("C:/R/UCI HAR Dataset/train/")
   names(HARdata)[1] <- "Subject"
   names(HARdata)[ncol(HARdata)] <- "Y"
   HARdata <- HARdata[order(HARdata$Subject),]
-
+  features <- read.table("C:/R/UCI HAR Dataset/features.txt")
+  names(HARdata)[4:ncol(HARdata)-1] <- as.character(features[,2])
+  names  
+  HARdatamean <- HARdata[,names(HARdata) %in% meanstd[,2]]
 ## to select Mean and Std measurements = =
 ## so I build up a list containing Mean and std... so sad.
   
