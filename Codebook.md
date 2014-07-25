@@ -4,6 +4,7 @@ Test Subject for the wearable computing devices
 
 ###Type
 Test group. 1/3 of the subjects are put into TEST GROUP, the other 2/3 TRAIN GROUP
+
 1. TRAIN
 2. TEST
 
