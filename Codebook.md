@@ -1,6 +1,7 @@
 ###Subject
 Test Subject for the wearable computing devices
 * 1~30
+
 ###Type
 Test group. 1/3 of the subjects are put into TEST GROUP, the other 2/3 TRAIN GROUP
 1. TRAIN
@@ -8,12 +9,14 @@ Test group. 1/3 of the subjects are put into TEST GROUP, the other 2/3 TRAIN GRO
 
 ###Activity
 Activity type
+
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
 4. SITTING, 
 5. STANDING
 6. LAYING
+
 ###Variables 
 *	tBodyAcc-mean()-X
 *	tBodyAcc-mean()-Y
