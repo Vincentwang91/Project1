@@ -51,7 +51,7 @@ for( i in 1:length(actlabels))
     HARdatameanstd$Activity[HARdatameanstd$Activity == i] <- actlabels[i]
   }
 ```
-write the data set if you want
+write the data set if you want/
 write.csv(HARdatameanstd, file="HARdatameanstd.csv")
 
 ###Calculating Averages
@@ -80,7 +80,7 @@ relabel the Type...
 HARdatamean$Type[HARdatamean$Type == 1] <- "TRAIN"
 HARdatamean$Type[HARdatamean$Type == 2] <- "TEST"
 ```
-write the data set2 if you want
+write the data set2 if you want/
 write.csv(HARdatamean, file="HARdatamean.csv")
 
 
